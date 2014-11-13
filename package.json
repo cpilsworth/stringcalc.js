@@ -1,14 +1,14 @@
 {
   "name": "stringcalc",
   "version": "1.0.0",
-  "description": "calc some strings",
+  "description": "calc some kata",
   "main": "stringcalc.js",
   "scripts": {
-    "testw": "mocha --watch"
-  },
-  "devDependencies": {
-    "mocha": "2.0.1"
+    "test": "mocha -w"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
 }

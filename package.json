@@ -7,11 +7,18 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --watch"
+    "test": "mocha --watch",
+    "test-cov": "mocha --require blanket --reporter html-cov > coverage.html; open coverage.html"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "blanket": "^1.1.6",
     "mocha": "^2.0.1"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "string-calc.js"
+    }
   }
 }

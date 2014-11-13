@@ -1,10 +1,13 @@
 {
   "name": "stringcalc",
   "version": "1.0.0",
-  "description": "calc some kata",
-  "main": "stringcalc.js",
+  "description": "",
+  "main": "string-calc.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "mocha -w"
+    "test": "mocha --watch"
   },
   "author": "",
   "license": "ISC",

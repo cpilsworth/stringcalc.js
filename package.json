@@ -4,7 +4,8 @@
   "description": "calc some strings",
   "main": "stringcalc.js",
   "scripts": {
-    "testw": "mocha --watch"
+    "test": "mocha",
+    "test-watch": "mocha --watch"
   },
   "devDependencies": {
     "mocha": "2.0.1"

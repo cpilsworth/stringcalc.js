@@ -1,5 +1,7 @@
 # stringcalc.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cpilsworth/stringcalc.js.svg)](https://greenkeeper.io/)
+
 From http://osherove.com/tdd-kata-1/
 
 Try not to read ahead.
